@@ -1,0 +1,21 @@
+.impact{
+    height: 650px;
+    background-image: url("../../assets/edited/norway-edited.png");
+    background-size: 100% ;  
+}
+
+h1{
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1, h2{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    
+}

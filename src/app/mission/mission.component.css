@@ -1,0 +1,98 @@
+.mission {
+    height: 650px;
+    background-image: linear-gradient(90deg, #f1fafc 33.33%, #001321
+    33.33%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.t1 {
+    width:33.33%;
+    float:left;
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 4rem;
+    font-weight: bold;
+}
+
+.t2 {
+    color:white;
+    width:66%;
+    float:right;
+    text-align: center;
+    padding-top: 90px;
+}
+
+h2, p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 950px) {
+    h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h2{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h2{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .mission {
+
+        height: 1100px;
+        background-image: linear-gradient(180deg, #f1fafc 32.5%, #001321
+        32.5%);
+        flex-direction: column;
+        
+    }
+    .t1{
+        width: 100%;
+        padding-top: 130px;
+    }
+    .t2{
+        width: 100%;
+        padding-top: 50px;
+        
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    
+    .t2{
+        padding-top: 10px
+    }
+
+    h2{
+        font-size: 17px;
+    }
+    
+}

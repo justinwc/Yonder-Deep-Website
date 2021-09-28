@@ -1,0 +1,46 @@
+header {
+    padding: 2px;
+    background-color: rgba(0, 46, 80, .6);
+    position:fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+}
+
+
+li, a{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover{
+    color: #0088a9
+}
+
+.logo{
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.lastButton{
+    padding-right: 8px;
+}
+

@@ -1,0 +1,81 @@
+.about{
+    background-color: #00334d;
+}
+
+.image{
+    background-image: url("../../assets/edited/edited4.png");
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.t1 {
+
+    float:left;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.t2 {
+    color:white;
+    height:100%;
+    float:right;
+    text-align: left;
+    font-size: xx-large;
+    padding-top: 90px;
+    padding-right:20px;
+    margin-left: 2rem;
+}
+
+.groupPic {
+    display: block;
+    height: 35vw;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 110px;
+    
+}
+
+p{
+    
+    font-weight: bold;
+}
+
+h2{
+    
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      
+    }
+
+    .groupPic {
+        display: block;
+        height: 65vw;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 110px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about{
+        height: 2000px;
+    }
+}
+

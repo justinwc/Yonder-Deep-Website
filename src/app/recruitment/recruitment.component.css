@@ -1,0 +1,117 @@
+.recruitment {
+    height: 630px;
+    background-image: url("../../assets/edited/test2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.t1 {
+    width:45%;
+    float:left;
+    text-align: center;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.t2 {
+    width:45%;
+    float:right;
+    text-align: left;   
+    padding-right:15px;
+    padding-left: 55px
+}
+
+h1{
+    font-weight: bold;
+    font-size: x-large;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+mat-panel-title, li{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li, a {
+    transition: all 0.3s ease 0s;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 13px;
+    padding-right: 22px;
+    text-align: center;
+    
+}
+
+.links li a:hover{
+    color: #0088a9
+}
+
+
+
+@media screen and (max-width: 850px) {
+    
+    .recruitment{
+        flex-direction: column;
+        height: 1000px;
+        
+        padding-right: 5rem;
+    }
+
+    .t1{
+        flex-direction: row;
+        width:100%;
+    }
+
+    .t2{
+        width:100%;
+        padding-left: 40px
+        
+    }
+
+    .text1, .text2{
+        width:50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .recruitment{
+        flex-direction: column;
+        height: 1500px;
+        
+        padding-right: 5rem;
+    }
+
+    .t1{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .t2{
+        width:100%;
+        padding-left: 40px
+        
+    }
+
+    .text1, .text2{
+        width:100%;
+    }
+
+}
